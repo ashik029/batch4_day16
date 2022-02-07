@@ -28,15 +28,24 @@ class Operator
         $this->y = 20;
         $this->z = 30;
 
-        //Conditional Operator//
-        echo ($this->x > $this->y) || ($this->y > $this->z);
-        echo '<br/>.......<br/>';
-        echo ($this->x > $this->y) || ($this->y < $this->z);
-        echo '<br/>.......<br/>';
-        echo ($this->x < $this->y) || ($this->y > $this->z);
-        echo '<br/>.......<br/>';
-        echo ($this->x < $this->y) || ($this->y < $this->z);
-        echo '<br/>.......<br/>';
+        //Logical Operator//
+//        echo ($this->x > $this->y) || ($this->y > $this->z);
+//        echo '<br/>.......<br/>';
+//        echo ($this->x > $this->y) || ($this->y < $this->z);
+//        echo '<br/>.......<br/>';
+//        echo ($this->x < $this->y) || ($this->y > $this->z);
+//        echo '<br/>.......<br/>';
+//        echo ($this->x < $this->y) || ($this->y < $this->z);
+//        echo '<br/>.......<br/>';
+
+//        echo ($this->x > $this->y) && ($this->y > $this->z);
+//        echo '<br/>.......<br/>';
+//        echo ($this->x > $this->y) && ($this->y < $this->z);
+//        echo '<br/>.......<br/>';
+//        echo ($this->x < $this->y) && ($this->y > $this->z);
+//        echo '<br/>.......<br/>';
+//        echo ($this->x < $this->y) && ($this->y < $this->z);
+//        echo '<br/>.......<br/>';
 
         // Binary Operator//
 //        echo $this->x = $this->y;
@@ -80,6 +89,29 @@ class Operator
 //        echo '<br/>';
 //        echo $this->x .= $this->y;
 //        echo '<br/>';
+
+
+        // ==== statement ====
+        /*
+                 *Single line statement
+                 *conditional statement
+
+                    *if
+                    *if else
+                   *Switch
+                   *Repeated Statement
+
+                   *For
+                    *DO WHILE
+                    *FOREACH
+                    *Array
+         */
+
+        if ($this->x > $this->y)
+        {
+            echo  'its true';
+        }
+
 
     }
 
